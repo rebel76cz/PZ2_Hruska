@@ -2,7 +2,9 @@
     .responsive-image {
         display: none;
     }
+}
 
+@media screen and (max-width: 800px) {
     .menu ul {
         flex-direction: column;
     }
@@ -17,3 +19,9 @@
         font-size: 3rem;
     }
 }
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
